@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yDHYC_RwgtvUiKhCghVP-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="660" width="440" height="440" as="geometry" />
+          <mxGeometry x="600" y="660" width="440" height="300" as="geometry" />
         </mxCell>
         <mxCell id="69ecfefc5c41e42c-2" value="Internet" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="470" y="140" width="80" height="80" as="geometry" />
@@ -66,8 +66,8 @@
         <mxCell id="GuMGin0lE9v5dH_PCKjd-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeWidth=2;endArrow=none;endFill=0;startArrow=none;startFill=0;" parent="1" source="GuMGin0lE9v5dH_PCKjd-11" target="GuMGin0lE9v5dH_PCKjd-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuMGin0lE9v5dH_PCKjd-20" value="192.168.1.100 (STATIC)" style="fontColor=#0066CC;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=right;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
-          <mxGeometry x="680" y="595" width="30" height="60" as="geometry" />
+        <mxCell id="GuMGin0lE9v5dH_PCKjd-20" value="192.168.1.100 (STATIC)&lt;br&gt;ESXi Hypervisor" style="fontColor=#0066CC;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=right;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
+          <mxGeometry x="680" y="600" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMGin0lE9v5dH_PCKjd-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;strokeWidth=2;dashPattern=8 8;endArrow=none;endFill=0;" parent="1" source="GuMGin0lE9v5dH_PCKjd-21" target="GuMGin0lE9v5dH_PCKjd-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -90,70 +90,88 @@
         <mxCell id="GuMGin0lE9v5dH_PCKjd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;endArrow=box;endFill=0;startArrow=box;startFill=0;" parent="1" source="GuMGin0lE9v5dH_PCKjd-2" target="GuMGin0lE9v5dH_PCKjd-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuMGin0lE9v5dH_PCKjd-30" value="192.168.1.110&lt;br&gt;Media Server" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
-          <mxGeometry x="629.26" y="760" width="50.74" height="37.5" as="geometry" />
+        <mxCell id="GuMGin0lE9v5dH_PCKjd-30" value="192.168.1.110&lt;br&gt;Media Server&lt;br&gt;(VIRTUAL)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
+          <mxGeometry x="730" y="670" width="50.74" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="GuMGin0lE9v5dH_PCKjd-31" value="192.168.1.200&lt;br&gt;Ubiquiti Control" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
+        <mxCell id="GuMGin0lE9v5dH_PCKjd-31" value="192.168.1.200&lt;br&gt;Ubiquiti Control&lt;br&gt;(VIRTUAL)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
           <mxGeometry x="629.26" y="670" width="50.74" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="KLEj2hCXxhUv6-pm4slY-2" value="192.168.0.10&lt;br&gt;PiHole" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="297" y="275" width="43" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yDHYC_RwgtvUiKhCghVP-5" value="Docker VNet" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="610" y="840" width="420" height="240" as="geometry" />
+        <mxCell id="yDHYC_RwgtvUiKhCghVP-5" value="Media Server Docker VSwitch" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="770" width="420" height="180" as="geometry" />
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-5">
-          <mxGeometry y="30" width="420" height="69" as="geometry" />
+          <mxGeometry y="30" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-7" value="Valheim" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-6">
-          <mxGeometry width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry width="140" height="40" as="geometry">
+            <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-8" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-6">
-          <mxGeometry x="140" width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry x="140" width="140" height="40" as="geometry">
+            <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-9" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-6">
-          <mxGeometry x="280" width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry x="280" width="140" height="40" as="geometry">
+            <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-5">
-          <mxGeometry y="99" width="420" height="72" as="geometry" />
+          <mxGeometry y="70" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-11" value="VRising" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-10">
-          <mxGeometry width="140" height="72" as="geometry">
-            <mxRectangle width="140" height="72" as="alternateBounds" />
+          <mxGeometry width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-10">
-          <mxGeometry x="140" width="140" height="72" as="geometry">
-            <mxRectangle width="140" height="72" as="alternateBounds" />
+          <mxGeometry x="140" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-10">
-          <mxGeometry x="280" width="140" height="72" as="geometry">
-            <mxRectangle width="140" height="72" as="alternateBounds" />
+          <mxGeometry x="280" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-5">
-          <mxGeometry y="171" width="420" height="69" as="geometry" />
+          <mxGeometry y="100" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-15" value="Portainer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-14">
-          <mxGeometry width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-14">
-          <mxGeometry x="140" width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry x="140" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yDHYC_RwgtvUiKhCghVP-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-14">
-          <mxGeometry x="280" width="140" height="69" as="geometry">
-            <mxRectangle width="140" height="69" as="alternateBounds" />
+          <mxGeometry x="280" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yDHYC_RwgtvUiKhCghVP-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-5">
+          <mxGeometry y="130" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yDHYC_RwgtvUiKhCghVP-19" value="OpenVPN-as&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-18">
+          <mxGeometry width="140" height="50" as="geometry">
+            <mxRectangle width="140" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yDHYC_RwgtvUiKhCghVP-20" value="Ports:1194 (VPN),&lt;br&gt;943 (ADMIN)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-18">
+          <mxGeometry x="140" width="140" height="50" as="geometry">
+            <mxRectangle width="140" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yDHYC_RwgtvUiKhCghVP-21" value="VPN Subnet:&lt;br&gt;172.27.240.0/20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="yDHYC_RwgtvUiKhCghVP-18">
+          <mxGeometry x="280" width="140" height="50" as="geometry">
+            <mxRectangle width="140" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
